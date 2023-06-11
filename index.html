@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDDHARTH FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS RESET*/
+    body{
+        font-family: cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg2.jpeg');
+        color: white;
+    }
+    .left{
+        position: absolute;
+        left: 10px;
+        top: 8px;  
+        display: inline-block;
+        
+    }
+    .left img{
+        width: 153px;
+        filter: invert(100%);
+    }
+    .left div{
+        
+        text-align: center;
+        font-size: 12px;
+    }
+    .center{
+        display: block;
+        width:60%;
+        text-align: center;
+        margin: 18px auto;
+     
+        
+    } 
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 32px;      
+        display: inline-block;
+        
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        padding: 4px 8px;
+        border: 2px solid whitesmoke;
+        border-radius: 8px;
+        font-size: 13px;
+        font-family:bold,cursive;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: aqua;
+        text-decoration: underline;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        padding:5px;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        color: blue;
+        text-decoration: underline;
+        padding: 34px 23px;
+    }.container{
+        border: 2px solid white;
+        margin: 144px auto;
+        padding: 53px 75px;
+        width: 50%;
+        border-radius: 68px
+
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 6px;
+        border: 2px solid red;
+        border-radius: 11px;
+        font-size: 15px;
+        margin: 10px auto;
+        font-family: bold,cursive;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 60%;
+        margin: 17px auto;        
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+        <div class="left">
+            <img src="" alt="">
+            <div >SIDDHARTH FITNESS</div>
+        </div> 
+        </div>
+        
+        <!-- centre box for navbar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+             </ul>
+        </div>
+        
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">CALL US NOW</button><button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF KHARAR NOW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR PHONE NUMBER">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="ENTER YOUR EMAIL">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
